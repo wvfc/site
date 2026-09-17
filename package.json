@@ -1,0 +1,19 @@
+{
+  "name": "soutech-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da SOUTECH Manutencao e Reparacao LTDA",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "serve": "node build.mjs && node --run serve:only",
+    "serve:only": "node server.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
